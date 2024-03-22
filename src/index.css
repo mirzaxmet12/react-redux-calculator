@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 40px 20px;
+  width: 300px;
+  margin-top: 150px;
+  border-radius: 10px;
+  background: #836767;
+}
+
+.button-block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+button {
+  font-size: 25px;
+  border: none;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+p {
+  background: #e5e3e3;
+  border: 1px solid #111;
+  text-align: end;
+  padding: 10px;
+  font-size: 35px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
